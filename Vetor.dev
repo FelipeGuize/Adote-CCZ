@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct aluno{
+        int ra;
+        char nome [50];
+        float nota;
+        data dataNascimento;
+};
+
+main(){
+       /*aluno voce;
+       voce.nome = "paulo";
+       voce.ra = 20230876;
+       voce.nota = 8.5;
+       voce.datanascimento.dia = 7;
+       voce.datanascimento.mes = 2;
+       voce.datanascimento.ano = 2004; */
+       int vetor[10]=[1, 6, 7, -14, 134, 0, -2, 13, 22, -7, 1];
+       for(int i=0; i<10; i++){
+               printf("Endereco %i conteudo %i/n", &vetor[i], vetor[i]);
+               
+               }
+       
+       
+       
+} 
