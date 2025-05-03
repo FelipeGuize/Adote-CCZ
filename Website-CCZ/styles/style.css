@@ -200,3 +200,159 @@ section.sobre div.sobre-mestre h2{
     margin-top: 10px;
 }
 
+
+/*--------- O PORQUE ADOTAR -----*/
+
+section.solucao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+
+    background-color: orange;
+
+}
+
+section.solucao h2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 950px;
+    text-align: center;
+    font-size: max(22px, 2.8vw);
+}
+
+section.solucao div.solucao-mestre{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section.solucao div.solucao-mestre div.solucao-texto{
+    max-width: 800px;
+    text-align: left;
+    line-height: 2;
+
+    margin-bottom: 20px;
+}
+
+section.solucao div.solucao-mestre div.solucao-texto p{
+    width: 95%;
+    margin: auto;
+    color: #000;
+    font-size: max(16px, 1vw);
+}
+
+section.solucao div.solucao-mestre div.solucao-img{
+    max-width: 400px;
+}
+
+section.solucao div.solucao-mestre div.solucao-img img{
+    max-width: 100%;
+}
+
+/*SEÇÃO IMAGENS DOS ANIMAIS PARA ADOÇÃO*/
+
+section.adocao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+section.adocao h2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 850px;
+    font-size: max(22px, 2.8vw);
+    text-align: center;
+    color: #000;
+}
+
+section.adocao div.adocao-container{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*ELEMENTOS DO FOOTER*/
+
+footer{
+    width: 100%;
+    background: #fff;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container{
+    width: 100%;
+    display: felx;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container div.logo-footer{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+   
+}
+
+footer div.footer-container div.logo-footer img{
+    max-width: 100%;
+}
+
+footer div.footer-container div.footer-info{
+    width: 70%;
+    margin-bottom: 50px;    
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+footer div.footer-container div.footer-info nav.nav-footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+
+    transition: .3S ease-out;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul li a:hover{
+    border: 2px solid;
+}
+
